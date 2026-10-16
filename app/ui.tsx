@@ -1,0 +1,18 @@
+'use client';
+import {Search,Newspaper,Scale,ExternalLink,FileText} from 'lucide-react';
+import type {Intelligence} from '../lib/types';
+export const date=(v:string|null,time=false)=>v?new Intl.DateTimeFormat('en-PH',{month:'short',day:'numeric',year:'numeric',...(time?{hour:'numeric',minute:'2-digit'}:{}),timeZone:'Asia/Manila'}).format(new Date(v)):'Not established';
+export const dayKey=(v:string)=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Manila'}).format(new Date(v));
+export const today=(v:string|null)=>!!v&&dayKey(v)===dayKey(new Date().toISOString());
+export const rank={P0:0,P1:1,P2:2,Archived:3};
+export function Priority({value}:{value:string}){return <span className={'badge priority '+value.toLowerCase()}><span/>{value==='Archived'?'Archived':value+' · '+({P0:'Critical',P1:'High',P2:'Monitor'}[value]||value)}</span>;}
+export function Empty({title,detail,icon:Icon=Search}:{title:string;detail:string;icon?:typeof Search}){return <div className="empty"><Icon size={30}/><h3>{title}</h3><p>{detail}</p></div>;}
+export function downloadText(content:string,name:string,type='text/plain'){const u=URL.createObjectURL(new Blob([content],{type}));const a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);}
+export function Metric({label,value,note,icon:Icon,tone='blue'}:{label:string;value:number|string;note:string;icon:typeof Newspaper;tone?:string}){return <section className={'metric '+tone}><div><span>{label}</span><Icon size={18}/></div><strong>{value}</strong><small>{note}</small></section>;}
+export function Select({label,value,set,values}:{label:string;value:string;set:(x:string)=>void;values:string[]}){return <label className="select-label"><span>{label}</span><select value={value} onChange={e=>set(e.target.value)}>{values.map(v=><option key={v}>{v}</option>)}</select></label>;}
+export function Trend({records,days}:{records:Intelligence[];days:number}){
+ const series=Array.from({length:days},(_,i)=>{const d=new Date();d.setUTCDate(d.getUTCDate()-(days-1-i));return {date:d.toISOString(),count:records.filter(r=>r.publishedAt&&dayKey(r.publishedAt)===dayKey(d.toISOString())).length};});
+ const max=Math.max(...series.map(s=>s.count),1),total=series.reduce((a,s)=>a+s.count,0);const fmt=(s:string)=>new Intl.DateTimeFormat('en-PH',{month:'short',day:'numeric',timeZone:'Asia/Manila'}).format(new Date(s));
+ return <div className="trend"><div className="trend-total"><strong>{total}</strong><span>publications in {days} days</span></div><svg viewBox="0 0 360 130" role="img" aria-label={`${total} publications. ${series.map(s=>fmt(s.date)+': '+s.count).join('; ')}`}><title>Verified publication activity</title>{[20,60,100].map(y=><line key={y} x1="12" x2="350" y1={y} y2={y} stroke="#e9edf4" strokeDasharray="3 4"/>)}{series.map((s,i)=>{const step=330/days;return <rect key={i} x={15+i*step} y={100-s.count/max*78} width={Math.max(3,step-8)} height={s.count/max*78} rx="3" fill={i===series.length-1?'#ffc000':'#46588c'}><title>{fmt(s.date)}: {s.count}</title></rect>;})}<text x="12" y="123">{fmt(series[0].date)}</text><text x="350" y="123" textAnchor="end">{fmt(series.at(-1)!.date)}</text></svg>{!total&&<p className="zero-chart">No dated publications in this window.</p>}</div>;
+}
+export function exportCsv(records:Intelligence[]){const keys=['headline','source','url','publishedAt','legalStatus','applicability','score','priority','threat','important','urgent','verification'] as const;const quote=(v:unknown)=>'"'+String(v??'').replace(/^[=+@-]/,"'$&").replaceAll('"','""')+'"';downloadText([keys.join(','),...records.map(r=>keys.map(k=>quote(r[k])).join(','))].join('\r\n'),'MDPPA_Intelligence.csv','text/csv;charset=utf-8');}

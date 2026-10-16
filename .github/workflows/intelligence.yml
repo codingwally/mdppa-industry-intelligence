@@ -1,0 +1,64 @@
+name: Publish Board dashboard
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 22 * * *' # 06:00 Asia/Manila, following calendar day
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: mdppa-daily-intelligence
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.25.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+      - run: pnpm typecheck
+      - name: Collect public sources
+        if: github.event_name != 'push'
+        run: pnpm crawl
+      - name: Refresh public application when configured
+        if: github.event_name != 'push'
+        run: node --import tsx scripts/refresh-hosted.ts
+        env:
+          MDPPA_SITE_ORIGIN: ${{ vars.MDPPA_SITE_ORIGIN }}
+          MDPPA_SITE_SERVICE_TOKEN: ${{ secrets.MDPPA_SITE_SERVICE_TOKEN }}
+      - name: Retain public-source history
+        if: github.event_name != 'push'
+        run: |
+          git config user.name 'MDPPA Intelligence Bot'
+          git config user.email 'mdppa-intelligence@users.noreply.github.com'
+          git add data/initial.json public/data/snapshot.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update verified source snapshot'
+            git push
+          fi
+      - run: pnpm build:pages
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist-pages
+  deploy-pages:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy Board dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
