@@ -15,7 +15,8 @@
     "test": "node --import tsx --test tests/*.test.ts",
     "typecheck": "tsc --noEmit",
     "crawl": "node --import tsx scripts/crawl.ts",
-    "build:pages": "vite build --config vite.pages.config.ts"
+    "build:pages": "vite build --config vite.pages.config.ts",
+    "crawl:honda": "node --import tsx scripts/crawl-honda.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

@@ -31,6 +31,9 @@ jobs:
       - name: Collect public sources
         if: github.event_name != 'push'
         run: pnpm crawl
+      - name: Recheck Honda early-warning sources
+        if: github.event_name != 'push'
+        run: pnpm crawl:honda
       - name: Refresh public application when configured
         if: github.event_name != 'push'
         run: node --import tsx scripts/refresh-hosted.ts
@@ -42,7 +45,7 @@ jobs:
         run: |
           git config user.name 'MDPPA Intelligence Bot'
           git config user.email 'mdppa-intelligence@users.noreply.github.com'
-          git add data/initial.json public/data/snapshot.json
+          git add data/initial.json public/data/snapshot.json data/honda-watch.json public/data/honda-watch.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update verified source snapshot'
             git push

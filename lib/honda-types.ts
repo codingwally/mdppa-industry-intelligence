@@ -1,0 +1,8 @@
+export type HondaChannel='Ecommerce'|'Facebook'|'Website';
+export type HondaCheckStatus='Research observation'|'Observed'|'Metadata only'|'Blocked by robots'|'Access restricted'|'Unavailable'|'Identity not verified';
+export interface HondaLead {
+ id:string;channel:HondaChannel;platform:string;title:string;productType:string;seller:string;market:string;marketCode:string;scope:string;url:string;identityTerms:string[];price:string;saleState:'Offer visible'|'Sales post visible'|'Warning post visible';saleEvidence:string;publishedAt:string|null;observedAt:string;observationMethod:string;imageUrl:string;imageLocalPath:string;imageAlt:string;imageCaption:string;imageVerified:boolean;priority:'Review lead'|'Source allegation'|'Reference offer';signal:string;quotes:{label:string;text:string}[];finding:string;limits:string;nextSteps:string[];authenticity:'Not determined';evidenceHash:string;sourceRef:string;
+ classification:'Review lead'|'Source allegation'|'Reference offer';sourceFreshness:string;additionalImages?:{url:string;localPath:string;alt:string;caption:string}[];references?:{label:string;url:string;note:string}[];
+}
+export interface HondaCheck {id:string;leadId:string;channel:HondaChannel;checkedAt:string;status:HondaCheckStatus;detail:string;httpStatus:number|null;contentHash:string|null;changed:boolean;observationVerified:boolean;}
+export interface HondaSnapshot {datasetVersion:number;asOf:string;cases:HondaLead[];checks:HondaCheck[];runs:{id:string;startedAt:string;finishedAt:string;observed:number;restricted:number;trigger:string}[];guidanceUrl:string;guidanceSummary:string;schedule:string;}

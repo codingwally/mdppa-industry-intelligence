@@ -3,6 +3,8 @@ import { SOURCES } from './sources';
 import { getSnapshot,logAudit,seed,getConfig,upsertRecords,saveReview,type Db } from './store';
 import { validateConfig,digest,scoreRecord } from './scoring';
 import { emailDraft } from './email';
+import {getHondaSnapshot,saveHondaSnapshot,applyHondaCheck} from './honda-store';
+import {checkHondaLead} from './honda-crawler';
 import type { QueueEntry,ScoringConfig,Intelligence,CrawlRun } from './types';
 type Runtime={DB?:Db;EMAIL_MODE?:string;RESEND_API_KEY?:string;EMAIL_FROM?:string;PRIVATE_OWNER_SITE?:string;SCHEDULE_STATUS?:string;PUBLIC_DEMO?:string;CRAWLER_SERVICE_TOKEN?:string};
 const json=(data:unknown,status=200)=>new Response(JSON.stringify(data),{status,headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'}});
@@ -25,12 +27,22 @@ export async function handleApi(request:Request,env:Runtime,user:{userId:string;
   await seed(db);const actor=publicDemo?'Demo reviewer':user?.email||'Authorized collector service';
   const audit=(action:string,recordId:string|null,actorName:string,detail:string)=>logAudit(db,action,recordId,actorName,detail,ownerKey);
   const mode={access:publicDemo?'Public — no sign-in':'Private evaluation',email:!publicDemo&&env.EMAIL_MODE==='live'&&env.RESEND_API_KEY&&env.EMAIL_FROM?'Live provider configured; per-digest approval required':'Sandbox — previews only; no emails delivered',schedule:env.SCHEDULE_STATUS||'Daily schedule not yet confirmed',github:'Public Board dashboard: https://codingwally.github.io/mdppa-industry-intelligence/'};
+  if(request.method==='GET'&&path==='honda-watch')return json(await getHondaSnapshot(db));
   if(request.method==='GET'&&path==='snapshot')return json(await getSnapshot(db,mode,ownerKey));
   if(request.method==='GET'&&path==='service-status'){
    const snapshot=await getSnapshot(db,mode,ownerKey);return json({sources:snapshot.sources,records:snapshot.records.filter(r=>!r.demo),runs:snapshot.runs,mode});
   }
   if(request.method!=='POST')return json({error:'Endpoint not found.'},404);
   const body=await request.json() as Record<string,any>;
+  if(path==='honda-watch/check'){
+   const snapshot=await getHondaSnapshot(db),lead=snapshot.cases.find(c=>c.id===body.leadId);
+   if(!lead)return json({error:'Choose a registered Honda watch target.'},400);
+   const slot='honda-check:'+lead.id+':'+Math.floor(Date.now()/300000);
+   const claim=await db.prepare('INSERT OR IGNORE INTO settings (id,payload) VALUES (?,?)').bind(slot,'{}').run();
+   if(claim.meta?.changes===0)return json({snapshot,reused:true});
+   const check=await checkHondaLead(lead);const latest=await getHondaSnapshot(db);const next=applyHondaCheck(latest,check);await saveHondaSnapshot(db,next);
+   await audit('Honda watch source checked',lead.id,actor,check.status+': '+check.detail);return json({snapshot:next,check,reused:false});
+  }
   if(path==='crawl'||path==='crawl-service'){
    if(!Array.isArray(body.sourceIds)||body.sourceIds.length<1||body.sourceIds.length>3)return json({error:'Choose one to three registered sources per request.'},400);
    let selected=body.sourceIds.map((id:string)=>SOURCES.find(s=>s.id===id&&s.enabled));if(selected.some((s:unknown)=>!s))return json({error:'Unknown or unsupported source.'},400);

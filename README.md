@@ -71,3 +71,11 @@ The GitHub workflow requests daily checks around 06:00 Asia/Manila; GitHub may d
 ## Public evaluation access
 
 The owner requested no sign-in. PUBLIC_DEMO=1 enables anonymous browser sessions; email delivery is always sandbox-only in this mode. Review data is isolated by an opaque HttpOnly session cookie. Shared source collection is throttled to one check per source per five-minute window. Service endpoints require CRAWLER_SERVICE_TOKEN even on the public site; the secret is server-side only. No contact address is exposed across browser sessions.
+
+## Honda motorcycle early warning
+
+Open `/honda-watch` in the public application, or `/honda-watch/` on GitHub Pages. This separate red and charcoal evidence desk is limited to Honda motorcycle genuine-parts claims and motorcycle oil in the Philippines. Each record displays its original seller/publisher photograph, source-page link, original-image link, capture method, freshness limits and an inspectable dossier. A browser-local review list, evidence JSON export and Board brief are available without sign-in.
+
+The initial register contains one Shopee presentation inconsistency, one unverified Facebook oil-filter allegation, and one Philippine genuine-parts reference offer. They are distinct classifications. There are no authenticated counterfeit products and no independently established current counterfeit sales. The Facebook warning's publication date is unknown; the Shopee observation is search-retrieved and its live inventory is unverified. The reference shop has no adverse finding.
+
+`pnpm crawl:honda` checks the three registered URLs, respects robots.txt, matches the named motorcycle product and records access failures. It never follows login redirects, bypasses restrictions, certifies authenticity, guesses missing publication dates, or overwrites reviewed prices/photos. Successful content changes create a review flag. The existing daily GitHub Actions workflow runs this command and publishes its exact results to Pages. The public app exposes manually throttled checks against the same registry. It does not discover new marketplace listings. Review the source content before any investigation or report.
