@@ -24,7 +24,7 @@ export async function handleApi(request:Request,env:Runtime,user:{userId:string;
   }
   await seed(db);const actor=publicDemo?'Demo reviewer':user?.email||'Authorized collector service';
   const audit=(action:string,recordId:string|null,actorName:string,detail:string)=>logAudit(db,action,recordId,actorName,detail,ownerKey);
-  const mode={access:publicDemo?'Public — no sign-in':'Private evaluation',email:!publicDemo&&env.EMAIL_MODE==='live'&&env.RESEND_API_KEY&&env.EMAIL_FROM?'Live provider configured; per-digest approval required':'Sandbox — previews only; no emails delivered',schedule:env.SCHEDULE_STATUS||'Daily schedule not yet confirmed',github:'GitHub Pages workflow prepared. Requested owner: wallycoding; account access unresolved.'};
+  const mode={access:publicDemo?'Public — no sign-in':'Private evaluation',email:!publicDemo&&env.EMAIL_MODE==='live'&&env.RESEND_API_KEY&&env.EMAIL_FROM?'Live provider configured; per-digest approval required':'Sandbox — previews only; no emails delivered',schedule:env.SCHEDULE_STATUS||'Daily schedule not yet confirmed',github:'Public Board dashboard: https://codingwally.github.io/mdppa-industry-intelligence/'};
   if(request.method==='GET'&&path==='snapshot')return json(await getSnapshot(db,mode,ownerKey));
   if(request.method==='GET'&&path==='service-status'){
    const snapshot=await getSnapshot(db,mode,ownerKey);return json({sources:snapshot.sources,records:snapshot.records.filter(r=>!r.demo),runs:snapshot.runs,mode});

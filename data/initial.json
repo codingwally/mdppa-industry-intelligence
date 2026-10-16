@@ -1415,7 +1415,7 @@
   "audit": [],
   "mode": {
     "email": "Sandbox \u2014 use the public application to prepare briefings",
-    "schedule": "GitHub deployment prepared; see Activity log for the latest completed source check.",
+    "schedule": "GitHub Actions requests public-source checks daily around 06:00 Asia/Manila. Activity log shows the latest completed collection.",
     "github": "codingwally/mdppa-industry-intelligence",
     "access": "Public Board evaluation \u2014 no sign-in"
   }

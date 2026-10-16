@@ -1,7 +1,7 @@
 import {SOURCES} from '../lib/sources';
 const origin=process.env.MDPPA_SITE_ORIGIN,token=process.env.MDPPA_SITE_SERVICE_TOKEN;
-if(!origin||!token){console.log('Hosted synchronization skipped: configure MDPPA_SITE_ORIGIN and the private Site service token. Local collection remains available.');process.exit(0);}
-const base=new URL(origin);if(base.protocol!=='https:'||!base.hostname.endsWith('.chatgpt.site'))throw new Error('Expected the private deployed Site HTTPS origin.');
+if(!origin||!token){console.log('Hosted synchronization skipped: configure MDPPA_SITE_ORIGIN and the Site service token. Local collection remains available.');process.exit(0);}
+const base=new URL(origin);if(base.protocol!=='https:'||!base.hostname.endsWith('.chatgpt.site'))throw new Error('Expected the deployed Site HTTPS origin.');
 let errors=0;
 for(const s of SOURCES.filter(s=>s.enabled)){
  const response=await fetch(new URL('/api/crawl-service',base),{method:'POST',headers:{'Content-Type':'application/json',Authorization:`Bearer ${token}`,'OAI-Sites-Authorization':`Bearer ${token}`},body:JSON.stringify({sourceIds:[s.id]}),signal:AbortSignal.timeout(150000)});
