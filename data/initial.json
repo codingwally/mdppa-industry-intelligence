@@ -91,7 +91,7 @@
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-16T06:30:36.991Z",
+      "scoredAt": "2026-10-17T00:11:10.013Z",
       "contentHash": "22e780c1bba4d07625358431a174490bde6f5c654b8bdcda6810edab72678f07"
     },
     {
@@ -185,18 +185,18 @@
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-16T06:30:36.991Z",
+      "scoredAt": "2026-10-17T00:11:10.013Z",
       "contentHash": "11252ebe19a846f5e13b8fb23858fb7b5b1a06e15173bee7d5f70c87c35c2a56"
     },
     {
       "id": "12df665cbb1e3df8ea0be0e8",
-      "headline": "PH motorcycle industry maintains upward growth in first 8 months of 2025\u2014MDPPA",
+      "headline": "PH motorcycle industry maintains upward growth in first 8 months of 2025—MDPPA",
       "sourceId": "mdppa",
       "source": "MDPPA",
       "url": "https://mdppa.site/ph-motorcycle-industry-maintains-upward-growth-in-first-8-months-of-2025-mdppa",
       "relatedUrls": [],
       "documentId": null,
-      "publishedAt": null,
+      "publishedAt": "2025-09-16T09:52:00.000Z",
       "issuedAt": null,
       "discoveredAt": "2026-10-16T02:54:56.539Z",
       "effectiveAt": null,
@@ -204,29 +204,32 @@
       "dateEvidence": null,
       "type": "News / announcement",
       "legalStatus": "Not a legal issuance",
-      "summary": "Source reports: PH motorcycle industry maintains upward growth in first 8 months of 2025\u2014MDPPA. This is an extracted development for analyst screening; no new legal obligation is inferred.",
+      "summary": "Source reports: PH motorcycle industry maintains upward growth in first 8 months of 2025—MDPPA. This is an extracted development for analyst screening; no new legal obligation is inferred.",
       "applicability": "Direct",
       "directImpact": "The source expressly discusses motorcycles or the two-wheel sector. Review the original report to establish the specific product or activity affected.",
-      "indirectImpact": "Possible industry-policy or rider education relevance; business consequences require analyst confirmation.",
-      "manufacturers": "Review whether product, production or compliance teams need to act; no new obligation confirmed.",
+      "indirectImpact": "Potential implications for demand, landed costs or business planning; magnitude has not been quantified.",
+      "manufacturers": "Assess implications for procurement, production and landed costs after verifying the product scope.",
       "dealerships": "Confirm whether sales, registration, inventory or after-sales workflows are affected. No automatic change is recommended.",
       "functions": [
+        "Legal & compliance",
+        "Finance & imports",
         "Manufacturing",
-        "Dealership operations"
+        "Dealership operations",
+        "Road safety & advocacy"
       ],
       "classes": [
-        "Two-wheel motorcycles \u2014 source scope"
+        "Two-wheel motorcycles — source scope"
       ],
       "action": "Review the original source, confirm motorcycle applicability and assign an appropriate committee owner before distribution.",
-      "verification": "Applicability or legal status requires verification.",
-      "confidence": 35,
-      "coverageVerified": false,
+      "verification": "Source text retrieved; analyst review of business implications required.",
+      "confidence": 85,
+      "coverageVerified": true,
       "severeDisruption": false,
       "riskEvidence": false,
       "deadlineVerified": false,
       "opportunity": true,
       "demo": false,
-      "historical": false,
+      "historical": true,
       "evidence": [
         {
           "label": "Retrieved source",
@@ -239,202 +242,15 @@
           "key": "0",
           "label": "Motorcycle applicability",
           "weight": 30,
-          "rating": 3,
-          "reason": "Generic vehicle terms do not establish motorcycle applicability."
+          "rating": 5,
+          "reason": "Motorcycle scope is explicit in the retrieved source."
         },
         {
           "key": "1",
           "label": "Regulatory consequences",
           "weight": 20,
-          "rating": 1,
-          "reason": "No enforceable obligation was established."
-        },
-        {
-          "key": "2",
-          "label": "Financial / operational impact",
-          "weight": 20,
-          "rating": 1,
-          "reason": "No material cost consequence established."
-        },
-        {
-          "key": "3",
-          "label": "Stakeholder breadth",
-          "weight": 15,
-          "rating": 3,
-          "reason": "Relevant to the motorcycle sector; exact stakeholder breadth requires review."
-        },
-        {
-          "key": "4",
-          "label": "Strategic significance",
-          "weight": 15,
           "rating": 2,
-          "reason": "Routine monitoring value; strategic consequence not yet demonstrated."
-        }
-      ],
-      "score": 41,
-      "priority": "P2",
-      "threat": "Uncertain",
-      "important": false,
-      "urgent": false,
-      "urgentImportant": false,
-      "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-16T06:30:36.991Z",
-      "contentHash": "1a75392c64bb2920d565b293fe6d9068851a5b3d1d6229d1ee1b29c4ad10234b"
-    },
-    {
-      "id": "92616f4074a2c262b802f394",
-      "headline": "MDPPA Public Advisory: Earthquake Preparedness Tips for Motorcycle Riders on the Road",
-      "sourceId": "mdppa",
-      "source": "MDPPA",
-      "url": "https://mdppa.site/mdppa-public-advisory-earthquake-preparedness-tips-for-motorcycle-riders-on-the-road",
-      "relatedUrls": [],
-      "documentId": null,
-      "publishedAt": null,
-      "issuedAt": null,
-      "discoveredAt": "2026-10-16T02:54:56.539Z",
-      "effectiveAt": null,
-      "deadline": null,
-      "dateEvidence": null,
-      "type": "News / announcement",
-      "legalStatus": "Not a legal issuance",
-      "summary": "Source reports: MDPPA Public Advisory: Earthquake Preparedness Tips for Motorcycle Riders on the Road. This is an extracted development for analyst screening; no new legal obligation is inferred.",
-      "applicability": "Direct",
-      "directImpact": "The source expressly discusses motorcycles or the two-wheel sector. Review the original report to establish the specific product or activity affected.",
-      "indirectImpact": "Possible industry-policy or rider education relevance; business consequences require analyst confirmation.",
-      "manufacturers": "Review whether product, production or compliance teams need to act; no new obligation confirmed.",
-      "dealerships": "Confirm whether sales, registration, inventory or after-sales workflows are affected. No automatic change is recommended.",
-      "functions": [
-        "Manufacturing",
-        "Dealership operations"
-      ],
-      "classes": [
-        "Two-wheel motorcycles \u2014 source scope"
-      ],
-      "action": "Review the original source, confirm motorcycle applicability and assign an appropriate committee owner before distribution.",
-      "verification": "Applicability or legal status requires verification.",
-      "confidence": 35,
-      "coverageVerified": false,
-      "severeDisruption": false,
-      "riskEvidence": false,
-      "deadlineVerified": false,
-      "opportunity": false,
-      "demo": false,
-      "historical": false,
-      "evidence": [
-        {
-          "label": "Retrieved source",
-          "detail": "Headline and content were extracted from the linked page. Classification and business impact are screening inferences.",
-          "url": "https://mdppa.site/mdppa-public-advisory-earthquake-preparedness-tips-for-motorcycle-riders-on-the-road"
-        }
-      ],
-      "criteria": [
-        {
-          "key": "0",
-          "label": "Motorcycle applicability",
-          "weight": 30,
-          "rating": 3,
-          "reason": "Generic vehicle terms do not establish motorcycle applicability."
-        },
-        {
-          "key": "1",
-          "label": "Regulatory consequences",
-          "weight": 20,
-          "rating": 1,
-          "reason": "No enforceable obligation was established."
-        },
-        {
-          "key": "2",
-          "label": "Financial / operational impact",
-          "weight": 20,
-          "rating": 1,
-          "reason": "No material cost consequence established."
-        },
-        {
-          "key": "3",
-          "label": "Stakeholder breadth",
-          "weight": 15,
-          "rating": 3,
-          "reason": "Relevant to the motorcycle sector; exact stakeholder breadth requires review."
-        },
-        {
-          "key": "4",
-          "label": "Strategic significance",
-          "weight": 15,
-          "rating": 2,
-          "reason": "Routine monitoring value; strategic consequence not yet demonstrated."
-        }
-      ],
-      "score": 41,
-      "priority": "P2",
-      "threat": "Uncertain",
-      "important": false,
-      "urgent": false,
-      "urgentImportant": false,
-      "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-16T06:30:36.991Z",
-      "contentHash": "7e3353e801c7fb8189fc361cbd9ccbbc5d38f15d3b9580cbf89fa04260363f11"
-    },
-    {
-      "id": "03d01a87aa1ebdb982966d9e",
-      "headline": "Motorcycle sales hit 171K in Sept. 2025, marks 21.2% growth year-on-year: MDPPA",
-      "sourceId": "mdppa",
-      "source": "MDPPA",
-      "url": "https://mdppa.site/motorcycle-sales-hit-171k-in-sept-2025-marks-21-2-growth-year-on-year-mdppa",
-      "relatedUrls": [],
-      "documentId": null,
-      "publishedAt": null,
-      "issuedAt": null,
-      "discoveredAt": "2026-10-16T02:54:56.539Z",
-      "effectiveAt": null,
-      "deadline": null,
-      "dateEvidence": null,
-      "type": "News / announcement",
-      "legalStatus": "Not a legal issuance",
-      "summary": "Source reports: Motorcycle sales hit 171K in Sept. 2025, marks 21.2% growth year-on-year: MDPPA. This is an extracted development for analyst screening; no new legal obligation is inferred.",
-      "applicability": "Direct",
-      "directImpact": "The source expressly discusses motorcycles or the two-wheel sector. Review the original report to establish the specific product or activity affected.",
-      "indirectImpact": "Potential implications for demand, landed costs or business planning; magnitude has not been quantified.",
-      "manufacturers": "Assess implications for procurement, production and landed costs after verifying the product scope.",
-      "dealerships": "Confirm whether sales, registration, inventory or after-sales workflows are affected. No automatic change is recommended.",
-      "functions": [
-        "Finance & imports",
-        "Manufacturing",
-        "Dealership operations"
-      ],
-      "classes": [
-        "Two-wheel motorcycles \u2014 source scope"
-      ],
-      "action": "Review the original source, confirm motorcycle applicability and assign an appropriate committee owner before distribution.",
-      "verification": "Applicability or legal status requires verification.",
-      "confidence": 35,
-      "coverageVerified": false,
-      "severeDisruption": false,
-      "riskEvidence": false,
-      "deadlineVerified": false,
-      "opportunity": true,
-      "demo": false,
-      "historical": false,
-      "evidence": [
-        {
-          "label": "Retrieved source",
-          "detail": "Headline and content were extracted from the linked page. Classification and business impact are screening inferences.",
-          "url": "https://mdppa.site/motorcycle-sales-hit-171k-in-sept-2025-marks-21-2-growth-year-on-year-mdppa"
-        }
-      ],
-      "criteria": [
-        {
-          "key": "0",
-          "label": "Motorcycle applicability",
-          "weight": 30,
-          "rating": 3,
-          "reason": "Generic vehicle terms do not establish motorcycle applicability."
-        },
-        {
-          "key": "1",
-          "label": "Regulatory consequences",
-          "weight": 20,
-          "rating": 1,
-          "reason": "No enforceable obligation was established."
+          "reason": "Regulatory language detected; a legal reviewer must establish actual obligations."
         },
         {
           "key": "2",
@@ -454,19 +270,211 @@
           "key": "4",
           "label": "Strategic significance",
           "weight": 15,
-          "rating": 2,
-          "reason": "Routine monitoring value; strategic consequence not yet demonstrated."
+          "rating": 3,
+          "reason": "Safety, sustainability, technology or counterfeit-parts issues align with MDPPA priorities."
         }
       ],
-      "score": 45,
+      "score": 64,
       "priority": "P2",
-      "threat": "Uncertain",
+      "threat": "No",
       "important": false,
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-16T06:30:36.991Z",
-      "contentHash": "39e67bf02cf6d61ea6b2ed6e6d7e41070ed0275f640bc1e030dbb6aaefd05f6a"
+      "scoredAt": "2026-10-17T00:10:53.732Z",
+      "contentHash": "8f8ff3d5cd54deece47c20f765d856a90bb095b45d4b25474dc201a2b63351f3"
+    },
+    {
+      "id": "92616f4074a2c262b802f394",
+      "headline": "MDPPA Public Advisory: Earthquake Preparedness Tips for Motorcycle Riders on the Road",
+      "sourceId": "mdppa",
+      "source": "MDPPA",
+      "url": "https://mdppa.site/mdppa-public-advisory-earthquake-preparedness-tips-for-motorcycle-riders-on-the-road",
+      "relatedUrls": [],
+      "documentId": null,
+      "publishedAt": "2025-10-14T09:56:00.000Z",
+      "issuedAt": null,
+      "discoveredAt": "2026-10-16T02:54:56.539Z",
+      "effectiveAt": null,
+      "deadline": null,
+      "dateEvidence": null,
+      "type": "News / announcement",
+      "legalStatus": "Not a legal issuance",
+      "summary": "Source reports: MDPPA Public Advisory: Earthquake Preparedness Tips for Motorcycle Riders on the Road. This is an extracted development for analyst screening; no new legal obligation is inferred.",
+      "applicability": "Direct",
+      "directImpact": "The source expressly discusses motorcycles or the two-wheel sector. Review the original report to establish the specific product or activity affected.",
+      "indirectImpact": "Potential implications for demand, landed costs or business planning; magnitude has not been quantified.",
+      "manufacturers": "Assess implications for procurement, production and landed costs after verifying the product scope.",
+      "dealerships": "Confirm whether sales, registration, inventory or after-sales workflows are affected. No automatic change is recommended.",
+      "functions": [
+        "Legal & compliance",
+        "Finance & imports",
+        "Manufacturing",
+        "Dealership operations",
+        "Road safety & advocacy"
+      ],
+      "classes": [
+        "Two-wheel motorcycles — source scope"
+      ],
+      "action": "Review the original source, confirm motorcycle applicability and assign an appropriate committee owner before distribution.",
+      "verification": "Source text retrieved; analyst review of business implications required.",
+      "confidence": 85,
+      "coverageVerified": true,
+      "severeDisruption": false,
+      "riskEvidence": false,
+      "deadlineVerified": false,
+      "opportunity": false,
+      "demo": false,
+      "historical": true,
+      "evidence": [
+        {
+          "label": "Retrieved source",
+          "detail": "Headline and content were extracted from the linked page. Classification and business impact are screening inferences.",
+          "url": "https://mdppa.site/mdppa-public-advisory-earthquake-preparedness-tips-for-motorcycle-riders-on-the-road"
+        }
+      ],
+      "criteria": [
+        {
+          "key": "0",
+          "label": "Motorcycle applicability",
+          "weight": 30,
+          "rating": 5,
+          "reason": "Motorcycle scope is explicit in the retrieved source."
+        },
+        {
+          "key": "1",
+          "label": "Regulatory consequences",
+          "weight": 20,
+          "rating": 2,
+          "reason": "Regulatory language detected; a legal reviewer must establish actual obligations."
+        },
+        {
+          "key": "2",
+          "label": "Financial / operational impact",
+          "weight": 20,
+          "rating": 2,
+          "reason": "Supply, investment, sales, taxation or production relevance is present; impact is unquantified."
+        },
+        {
+          "key": "3",
+          "label": "Stakeholder breadth",
+          "weight": 15,
+          "rating": 3,
+          "reason": "Relevant to the motorcycle sector; exact stakeholder breadth requires review."
+        },
+        {
+          "key": "4",
+          "label": "Strategic significance",
+          "weight": 15,
+          "rating": 3,
+          "reason": "Safety, sustainability, technology or counterfeit-parts issues align with MDPPA priorities."
+        }
+      ],
+      "score": 64,
+      "priority": "P2",
+      "threat": "No",
+      "important": false,
+      "urgent": false,
+      "urgentImportant": false,
+      "scoringVersion": "1.0.0",
+      "scoredAt": "2026-10-17T00:10:53.732Z",
+      "contentHash": "1c394f0675c16de3aeb10c9c40b1837f692526e53bc5f53dcbb1d83975e49af4"
+    },
+    {
+      "id": "03d01a87aa1ebdb982966d9e",
+      "headline": "Motorcycle sales hit 171K in Sept. 2025, marks 21.2% growth year-on-year: MDPPA",
+      "sourceId": "mdppa",
+      "source": "MDPPA",
+      "url": "https://mdppa.site/motorcycle-sales-hit-171k-in-sept-2025-marks-21-2-growth-year-on-year-mdppa",
+      "relatedUrls": [],
+      "documentId": null,
+      "publishedAt": "2025-10-22T09:59:00.000Z",
+      "issuedAt": null,
+      "discoveredAt": "2026-10-16T02:54:56.539Z",
+      "effectiveAt": null,
+      "deadline": null,
+      "dateEvidence": null,
+      "type": "News / announcement",
+      "legalStatus": "Not a legal issuance",
+      "summary": "Source reports: Motorcycle sales hit 171K in Sept. 2025, marks 21.2% growth year-on-year: MDPPA. This is an extracted development for analyst screening; no new legal obligation is inferred.",
+      "applicability": "Direct",
+      "directImpact": "The source expressly discusses motorcycles or the two-wheel sector. Review the original report to establish the specific product or activity affected.",
+      "indirectImpact": "Potential implications for demand, landed costs or business planning; magnitude has not been quantified.",
+      "manufacturers": "Assess implications for procurement, production and landed costs after verifying the product scope.",
+      "dealerships": "Confirm whether sales, registration, inventory or after-sales workflows are affected. No automatic change is recommended.",
+      "functions": [
+        "Legal & compliance",
+        "Finance & imports",
+        "Manufacturing",
+        "Dealership operations",
+        "Road safety & advocacy"
+      ],
+      "classes": [
+        "Two-wheel motorcycles — source scope"
+      ],
+      "action": "Review the original source, confirm motorcycle applicability and assign an appropriate committee owner before distribution.",
+      "verification": "Source text retrieved; analyst review of business implications required.",
+      "confidence": 85,
+      "coverageVerified": true,
+      "severeDisruption": false,
+      "riskEvidence": false,
+      "deadlineVerified": false,
+      "opportunity": true,
+      "demo": false,
+      "historical": true,
+      "evidence": [
+        {
+          "label": "Retrieved source",
+          "detail": "Headline and content were extracted from the linked page. Classification and business impact are screening inferences.",
+          "url": "https://mdppa.site/motorcycle-sales-hit-171k-in-sept-2025-marks-21-2-growth-year-on-year-mdppa"
+        }
+      ],
+      "criteria": [
+        {
+          "key": "0",
+          "label": "Motorcycle applicability",
+          "weight": 30,
+          "rating": 5,
+          "reason": "Motorcycle scope is explicit in the retrieved source."
+        },
+        {
+          "key": "1",
+          "label": "Regulatory consequences",
+          "weight": 20,
+          "rating": 2,
+          "reason": "Regulatory language detected; a legal reviewer must establish actual obligations."
+        },
+        {
+          "key": "2",
+          "label": "Financial / operational impact",
+          "weight": 20,
+          "rating": 2,
+          "reason": "Supply, investment, sales, taxation or production relevance is present; impact is unquantified."
+        },
+        {
+          "key": "3",
+          "label": "Stakeholder breadth",
+          "weight": 15,
+          "rating": 3,
+          "reason": "Relevant to the motorcycle sector; exact stakeholder breadth requires review."
+        },
+        {
+          "key": "4",
+          "label": "Strategic significance",
+          "weight": 15,
+          "rating": 3,
+          "reason": "Safety, sustainability, technology or counterfeit-parts issues align with MDPPA priorities."
+        }
+      ],
+      "score": 64,
+      "priority": "P2",
+      "threat": "No",
+      "important": false,
+      "urgent": false,
+      "urgentImportant": false,
+      "scoringVersion": "1.0.0",
+      "scoredAt": "2026-10-17T00:10:53.732Z",
+      "contentHash": "e84ac6f3ad842a28f3c535c5d99eb5f0843483dd619f1c87e4949e3eaaf89ad0"
     },
     {
       "id": "3bc132b3fcb739eb91dc9ae6",
@@ -476,7 +484,7 @@
       "url": "https://mdppa.site/mdppa-holds-product-branding-seminar-to-help-curb-fake-motorcycle-parts",
       "relatedUrls": [],
       "documentId": null,
-      "publishedAt": null,
+      "publishedAt": "2025-11-29T08:13:43.000Z",
       "issuedAt": null,
       "discoveredAt": "2026-10-16T02:54:56.539Z",
       "effectiveAt": null,
@@ -487,26 +495,29 @@
       "summary": "Source reports: MDPPA holds product, branding seminar to help curb fake motorcycle parts. This is an extracted development for analyst screening; no new legal obligation is inferred.",
       "applicability": "Direct",
       "directImpact": "The source expressly discusses motorcycles or the two-wheel sector. Review the original report to establish the specific product or activity affected.",
-      "indirectImpact": "Possible industry-policy or rider education relevance; business consequences require analyst confirmation.",
-      "manufacturers": "Review whether product, production or compliance teams need to act; no new obligation confirmed.",
+      "indirectImpact": "Potential implications for demand, landed costs or business planning; magnitude has not been quantified.",
+      "manufacturers": "Assess implications for procurement, production and landed costs after verifying the product scope.",
       "dealerships": "Confirm whether sales, registration, inventory or after-sales workflows are affected. No automatic change is recommended.",
       "functions": [
+        "Legal & compliance",
+        "Finance & imports",
         "Manufacturing",
-        "Dealership operations"
+        "Dealership operations",
+        "Road safety & advocacy"
       ],
       "classes": [
-        "Two-wheel motorcycles \u2014 source scope"
+        "Two-wheel motorcycles — source scope"
       ],
       "action": "Review the original source, confirm motorcycle applicability and assign an appropriate committee owner before distribution.",
-      "verification": "Applicability or legal status requires verification.",
-      "confidence": 35,
-      "coverageVerified": false,
+      "verification": "Source text retrieved; analyst review of business implications required.",
+      "confidence": 85,
+      "coverageVerified": true,
       "severeDisruption": false,
       "riskEvidence": false,
       "deadlineVerified": false,
-      "opportunity": false,
+      "opportunity": true,
       "demo": false,
-      "historical": false,
+      "historical": true,
       "evidence": [
         {
           "label": "Retrieved source",
@@ -519,22 +530,22 @@
           "key": "0",
           "label": "Motorcycle applicability",
           "weight": 30,
-          "rating": 3,
-          "reason": "Generic vehicle terms do not establish motorcycle applicability."
+          "rating": 5,
+          "reason": "Motorcycle scope is explicit in the retrieved source."
         },
         {
           "key": "1",
           "label": "Regulatory consequences",
           "weight": 20,
-          "rating": 1,
-          "reason": "No enforceable obligation was established."
+          "rating": 2,
+          "reason": "Regulatory language detected; a legal reviewer must establish actual obligations."
         },
         {
           "key": "2",
           "label": "Financial / operational impact",
           "weight": 20,
-          "rating": 1,
-          "reason": "No material cost consequence established."
+          "rating": 2,
+          "reason": "Supply, investment, sales, taxation or production relevance is present; impact is unquantified."
         },
         {
           "key": "3",
@@ -547,19 +558,19 @@
           "key": "4",
           "label": "Strategic significance",
           "weight": 15,
-          "rating": 2,
-          "reason": "Routine monitoring value; strategic consequence not yet demonstrated."
+          "rating": 3,
+          "reason": "Safety, sustainability, technology or counterfeit-parts issues align with MDPPA priorities."
         }
       ],
-      "score": 41,
+      "score": 64,
       "priority": "P2",
-      "threat": "Uncertain",
+      "threat": "No",
       "important": false,
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-16T06:30:36.991Z",
-      "contentHash": "588a1fd33d2407964d7f1d5eded0114c9b2b827a6e311759c2155aa80abfb5fc"
+      "scoredAt": "2026-10-17T00:10:53.732Z",
+      "contentHash": "50f30d1acad3dc72e64950e19df05757e5d50a5b29458dc9a7203812bd56b9f6"
     },
     {
       "id": "4c85eb53222c69a3d6e923c0",
@@ -569,7 +580,7 @@
       "url": "https://mdppa.site/confidence-in-2w-soars-19-high-in-october-mdppa-confirms",
       "relatedUrls": [],
       "documentId": null,
-      "publishedAt": null,
+      "publishedAt": "2025-11-30T08:28:52.000Z",
       "issuedAt": null,
       "discoveredAt": "2026-10-16T02:54:56.539Z",
       "effectiveAt": null,
@@ -580,26 +591,29 @@
       "summary": "Source reports: Confidence in 2W soars 19% high in October, MDPPA Confirms. This is an extracted development for analyst screening; no new legal obligation is inferred.",
       "applicability": "Direct",
       "directImpact": "The source expressly discusses motorcycles or the two-wheel sector. Review the original report to establish the specific product or activity affected.",
-      "indirectImpact": "Possible industry-policy or rider education relevance; business consequences require analyst confirmation.",
-      "manufacturers": "Review whether product, production or compliance teams need to act; no new obligation confirmed.",
+      "indirectImpact": "Potential implications for demand, landed costs or business planning; magnitude has not been quantified.",
+      "manufacturers": "Assess implications for procurement, production and landed costs after verifying the product scope.",
       "dealerships": "Confirm whether sales, registration, inventory or after-sales workflows are affected. No automatic change is recommended.",
       "functions": [
+        "Legal & compliance",
+        "Finance & imports",
         "Manufacturing",
-        "Dealership operations"
+        "Dealership operations",
+        "Road safety & advocacy"
       ],
       "classes": [
-        "Two-wheel motorcycles \u2014 source scope"
+        "Two-wheel motorcycles — source scope"
       ],
       "action": "Review the original source, confirm motorcycle applicability and assign an appropriate committee owner before distribution.",
-      "verification": "Applicability or legal status requires verification.",
-      "confidence": 35,
-      "coverageVerified": false,
+      "verification": "Source text retrieved; analyst review of business implications required.",
+      "confidence": 85,
+      "coverageVerified": true,
       "severeDisruption": false,
       "riskEvidence": false,
       "deadlineVerified": false,
-      "opportunity": false,
+      "opportunity": true,
       "demo": false,
-      "historical": false,
+      "historical": true,
       "evidence": [
         {
           "label": "Retrieved source",
@@ -612,22 +626,22 @@
           "key": "0",
           "label": "Motorcycle applicability",
           "weight": 30,
-          "rating": 3,
-          "reason": "Generic vehicle terms do not establish motorcycle applicability."
+          "rating": 5,
+          "reason": "Motorcycle scope is explicit in the retrieved source."
         },
         {
           "key": "1",
           "label": "Regulatory consequences",
           "weight": 20,
-          "rating": 1,
-          "reason": "No enforceable obligation was established."
+          "rating": 2,
+          "reason": "Regulatory language detected; a legal reviewer must establish actual obligations."
         },
         {
           "key": "2",
           "label": "Financial / operational impact",
           "weight": 20,
-          "rating": 1,
-          "reason": "No material cost consequence established."
+          "rating": 2,
+          "reason": "Supply, investment, sales, taxation or production relevance is present; impact is unquantified."
         },
         {
           "key": "3",
@@ -640,23 +654,23 @@
           "key": "4",
           "label": "Strategic significance",
           "weight": 15,
-          "rating": 2,
-          "reason": "Routine monitoring value; strategic consequence not yet demonstrated."
+          "rating": 3,
+          "reason": "Safety, sustainability, technology or counterfeit-parts issues align with MDPPA priorities."
         }
       ],
-      "score": 41,
+      "score": 64,
       "priority": "P2",
-      "threat": "Uncertain",
+      "threat": "No",
       "important": false,
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-16T06:30:36.991Z",
-      "contentHash": "b04f7e3e542f2eff1a4f4d44ef9a847c9deca2ccd1ad6bc6c1d34d533e9bd7b7"
+      "scoredAt": "2026-10-17T00:10:53.732Z",
+      "contentHash": "300f54c13ec82628956911a249782953ef1aa0e755cff1965a3733fbe8027b6f"
     },
     {
       "id": "b791430c75301615a41f8823",
-      "headline": "EO 62: tariff schedule \u2014 motorcycle coverage needs verification",
+      "headline": "EO 62: tariff schedule — motorcycle coverage needs verification",
       "sourceId": "tariff-baseline",
       "source": "Office of the President / Lawphil",
       "url": "https://lawphil.net/executive/execord/eo2024/eo_62_2024.html",
@@ -696,7 +710,7 @@
       "historical": true,
       "evidence": [
         {
-          "label": "Rates: Sections 1\u20132 and Annex A reference",
+          "label": "Rates: Sections 1–2 and Annex A reference",
           "detail": "The tariff schedule depends on Annex A product lines; body text alone is insufficient.",
           "url": "https://lawphil.net/executive/execord/eo2024/eo_62_2024.html"
         }
@@ -745,7 +759,7 @@
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-16T06:30:36.991Z",
+      "scoredAt": "2026-10-17T00:11:13.891Z",
       "contentHash": "c5518a666cc75c05f12a703d45f1af550ac608e6c290f3ddace369941249fbdd"
     },
     {
@@ -778,7 +792,7 @@
         "Road safety & advocacy"
       ],
       "classes": [
-        "Electric motorcycles \u2014 classification to verify"
+        "Electric motorcycles — classification to verify"
       ],
       "action": "Assign the policy and technical committees to map current implementing rules and model coverage; prepare a coordinated member briefing.",
       "verification": "Historical legal text retrieved; specific current implementing requirements are not independently verified.",
@@ -841,14 +855,14 @@
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-16T06:30:36.991Z",
+      "scoredAt": "2026-10-17T00:11:12.647Z",
       "contentHash": "fd0b415962e7d57f2e76dacae6a6e14fa8dc11eda991c4c0c5394b8f3341c4b5"
     }
   ],
   "sources": [
     {
       "id": "lto",
-      "name": "LTO \u2014 issuances",
+      "name": "LTO — issuances",
       "agency": "LTO",
       "url": "https://lto.gov.ph/issuances/",
       "kind": "html",
@@ -857,7 +871,7 @@
       "enabled": true,
       "notes": "Linked PDFs require manual legal review; title-only records cannot establish motorcycle coverage.",
       "status": "Unavailable",
-      "checkedAt": "2026-10-16T03:18:15.697Z",
+      "checkedAt": "2026-10-17T00:10:47.657Z",
       "lastSuccessAt": null,
       "error": "HTTP 403: source access restricted; no bypass attempted.",
       "candidates": 0,
@@ -874,17 +888,17 @@
       "official": true,
       "enabled": true,
       "notes": "Availability and feed access are checked each run.",
-      "status": "Healthy",
-      "checkedAt": "2026-10-16T03:13:54.573Z",
+      "status": "Unavailable",
+      "checkedAt": "2026-10-17T00:10:48.564Z",
       "lastSuccessAt": "2026-10-16T03:13:54.573Z",
-      "error": null,
-      "candidates": 10,
+      "error": "HTTP 403: source access restricted; no bypass attempted.",
+      "candidates": 0,
       "ingested": 0,
-      "robots": "robots.txt checked"
+      "robots": null
     },
     {
       "id": "dti",
-      "name": "DTI \u2014 news",
+      "name": "DTI — news",
       "agency": "DTI",
       "url": "https://www.dti.gov.ph/feed/",
       "kind": "rss",
@@ -893,7 +907,7 @@
       "enabled": true,
       "notes": "Product standards, manufacturing and consumer protection.",
       "status": "Blocked by robots",
-      "checkedAt": "2026-10-16T03:14:01.328Z",
+      "checkedAt": "2026-10-17T00:10:49.052Z",
       "lastSuccessAt": null,
       "error": "robots.txt disallows this source path.",
       "candidates": 0,
@@ -910,13 +924,13 @@
       "official": true,
       "enabled": true,
       "notes": "Investments and industry incentives.",
-      "status": "Healthy",
-      "checkedAt": "2026-10-16T03:14:05.163Z",
+      "status": "Unavailable",
+      "checkedAt": "2026-10-17T00:10:50.129Z",
       "lastSuccessAt": "2026-10-16T03:14:05.163Z",
-      "error": null,
-      "candidates": 1,
+      "error": "HTTP 403: source access restricted; no bypass attempted.",
+      "candidates": 0,
       "ingested": 0,
-      "robots": "robots.txt checked"
+      "robots": null
     },
     {
       "id": "customs",
@@ -929,7 +943,7 @@
       "enabled": true,
       "notes": "Importation, customs valuation and components.",
       "status": "Unavailable",
-      "checkedAt": "2026-10-16T03:14:10.396Z",
+      "checkedAt": "2026-10-17T00:10:51.805Z",
       "lastSuccessAt": null,
       "error": "HTTP 403: source access restricted; no bypass attempted.",
       "candidates": 0,
@@ -947,16 +961,16 @@
       "enabled": true,
       "notes": "News is not a substitute for a full decision; legal status requires review.",
       "status": "Unavailable",
-      "checkedAt": "2026-10-16T03:14:13.952Z",
+      "checkedAt": "2026-10-17T00:10:53.205Z",
       "lastSuccessAt": null,
-      "error": "HTTP 526",
+      "error": "fetch failed",
       "candidates": 0,
       "ingested": 0,
       "robots": null
     },
     {
       "id": "mdppa",
-      "name": "MDPPA \u2014 industry updates",
+      "name": "MDPPA — industry updates",
       "agency": "MDPPA",
       "url": "https://mdppa.site/",
       "kind": "html",
@@ -965,8 +979,8 @@
       "enabled": true,
       "notes": "Industry sales, safety advocacy and counterfeit components. HTML adapter; the feed did not expose usable entries.",
       "status": "Healthy",
-      "checkedAt": "2026-10-16T03:14:17.388Z",
-      "lastSuccessAt": "2026-10-16T03:14:17.388Z",
+      "checkedAt": "2026-10-17T00:10:53.732Z",
+      "lastSuccessAt": "2026-10-17T00:10:53.732Z",
       "error": null,
       "candidates": 5,
       "ingested": 5,
@@ -974,7 +988,7 @@
     },
     {
       "id": "lawphil-acts",
-      "name": "Lawphil \u2014 2026 Republic Acts",
+      "name": "Lawphil — 2026 Republic Acts",
       "agency": "Congress / Lawphil",
       "url": "https://lawphil.net/statutes/repacts/ra2026/ra2026.html",
       "kind": "html",
@@ -983,8 +997,8 @@
       "enabled": true,
       "notes": "Legal text mirror maintained by Arellano Law Foundation; verify against issuing agency for escalation.",
       "status": "Healthy",
-      "checkedAt": "2026-10-16T03:14:34.194Z",
-      "lastSuccessAt": "2026-10-16T03:14:34.194Z",
+      "checkedAt": "2026-10-17T00:11:08.512Z",
+      "lastSuccessAt": "2026-10-17T00:11:08.512Z",
       "error": null,
       "candidates": 0,
       "ingested": 0,
@@ -992,7 +1006,7 @@
     },
     {
       "id": "lawphil-orders",
-      "name": "Lawphil \u2014 2026 Executive Orders",
+      "name": "Lawphil — 2026 Executive Orders",
       "agency": "Office of the President / Lawphil",
       "url": "https://lawphil.net/executive/execord/eo2026/eo2026.html",
       "kind": "html",
@@ -1001,8 +1015,8 @@
       "enabled": true,
       "notes": "Current-year discovery index; legal mirror rather than original publisher.",
       "status": "Healthy",
-      "checkedAt": "2026-10-16T03:14:38.741Z",
-      "lastSuccessAt": "2026-10-16T03:14:38.741Z",
+      "checkedAt": "2026-10-17T00:11:10.013Z",
+      "lastSuccessAt": "2026-10-17T00:11:10.013Z",
       "error": null,
       "candidates": 2,
       "ingested": 2,
@@ -1010,7 +1024,7 @@
     },
     {
       "id": "evida",
-      "name": "EVIDA \u2014 primary legal text",
+      "name": "EVIDA — primary legal text",
       "agency": "Congress / Lawphil",
       "url": "https://lawphil.net/statutes/repacts/ra2022/ra_11697_2022.html",
       "kind": "document",
@@ -1019,8 +1033,8 @@
       "enabled": true,
       "notes": "Historical baseline: RA 11697, April 15, 2022. Never counted as newly published today.",
       "status": "Healthy",
-      "checkedAt": "2026-10-16T03:14:45.068Z",
-      "lastSuccessAt": "2026-10-16T03:14:45.068Z",
+      "checkedAt": "2026-10-17T00:11:12.647Z",
+      "lastSuccessAt": "2026-10-17T00:11:12.647Z",
       "error": null,
       "candidates": 1,
       "ingested": 1,
@@ -1028,7 +1042,7 @@
     },
     {
       "id": "tariff-baseline",
-      "name": "EO 62 \u2014 tariff baseline",
+      "name": "EO 62 — tariff baseline",
       "agency": "Office of the President / Lawphil",
       "url": "https://lawphil.net/executive/execord/eo2024/eo_62_2024.html",
       "kind": "document",
@@ -1037,8 +1051,8 @@
       "enabled": true,
       "notes": "Historical baseline: June 20, 2024. Annex A tariff lines are not verified by body text alone.",
       "status": "Healthy",
-      "checkedAt": "2026-10-16T03:14:49.449Z",
-      "lastSuccessAt": "2026-10-16T03:14:49.449Z",
+      "checkedAt": "2026-10-17T00:11:13.891Z",
+      "lastSuccessAt": "2026-10-17T00:11:13.891Z",
       "error": null,
       "candidates": 1,
       "ingested": 1,
@@ -1064,7 +1078,7 @@
     },
     {
       "id": "ltfrb",
-      "name": "LTFRB \u2014 issuances",
+      "name": "LTFRB — issuances",
       "agency": "LTFRB",
       "url": "https://ltfrb.gov.ph/",
       "kind": "manual",
@@ -1136,7 +1150,7 @@
     },
     {
       "id": "senate",
-      "name": "Senate \u2014 legislative information",
+      "name": "Senate — legislative information",
       "agency": "Senate",
       "url": "https://legacy.senate.gov.ph/lis/leg_sys.aspx",
       "kind": "manual",
@@ -1172,7 +1186,7 @@
     },
     {
       "id": "pna",
-      "name": "Philippine News Agency \u2014 business",
+      "name": "Philippine News Agency — business",
       "agency": "PNA",
       "url": "https://www.pna.gov.ph/categories/business",
       "kind": "html",
@@ -1181,7 +1195,7 @@
       "enabled": true,
       "notes": "Government newswire; obtain original issuance before legal escalation.",
       "status": "Unavailable",
-      "checkedAt": "2026-10-16T03:14:53.389Z",
+      "checkedAt": "2026-10-17T00:11:14.917Z",
       "lastSuccessAt": null,
       "error": "HTTP 404",
       "candidates": 0,
@@ -1244,6 +1258,16 @@
     }
   ],
   "runs": [
+    {
+      "id": "49e6de4b-759e-4fb7-bb86-780b617c2792",
+      "startedAt": "2026-10-17T00:10:47.650Z",
+      "finishedAt": "2026-10-17T00:11:16.985Z",
+      "status": "Completed with source errors",
+      "sourcesChecked": 12,
+      "recordsFound": 0,
+      "errors": 7,
+      "trigger": "CLI / GitHub Actions"
+    },
     {
       "id": "8e09c97a-3d3a-42ed-9bfb-fc136a4237ad",
       "startedAt": "2026-10-16T03:18:15.394Z",
@@ -1395,6 +1419,10 @@
       "trigger": "CLI / GitHub Actions"
     }
   ],
+  "queue": [],
+  "recipients": [],
+  "history": [],
+  "audit": [],
   "config": {
     "weights": [
       30,
@@ -1409,14 +1437,9 @@
     "minimumConfidence": 85,
     "urgentDays": 14
   },
-  "queue": [],
-  "recipients": [],
-  "history": [],
-  "audit": [],
   "mode": {
-    "email": "Sandbox \u2014 use the public application to prepare briefings",
-    "schedule": "GitHub Actions requests public-source checks daily around 06:00 Asia/Manila. Activity log shows the latest completed collection.",
-    "github": "codingwally/mdppa-industry-intelligence",
-    "access": "Public Board evaluation \u2014 no sign-in"
+    "email": "Sandbox — use the public application to prepare briefings",
+    "schedule": "GitHub Actions checks public sources daily around 06:00 Asia/Manila. Open Activity log for the latest completed run.",
+    "github": "codingwally/mdppa-industry-intelligence"
   }
 }
