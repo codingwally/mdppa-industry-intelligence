@@ -1,5 +1,7 @@
 # MDPPA Industry Intelligence & Regulatory Monitoring
 
+**MDPPA GitHub project hub:** [Project index, related repositories, and GitHub Pages demonstrations](docs/MDPPA_PROJECTS.md). This public code repository is not a storage location for confidential MDPPA records.
+
 A working, public proof of concept with no sign-in requirement for the Motorcycle Development Program Participants Association. It collects public-source developments, screens actual motorcycle applicability, explains relevance/priority, supports evidence review, and prepares human-approved briefings. It does not modify mdppa.site.
 
 Open the [working application](https://mdppa-industry-intelligence.wallyesteban1993.chatgpt.site) without signing in. The [GitHub Pages Board dashboard](https://codingwally.github.io/mdppa-industry-intelligence/) is published from this repository’s `main` branch through GitHub Actions.
