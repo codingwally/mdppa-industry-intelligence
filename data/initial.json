@@ -91,7 +91,7 @@
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-27T01:12:41.549Z",
+      "scoredAt": "2026-10-28T01:00:39.251Z",
       "contentHash": "22e780c1bba4d07625358431a174490bde6f5c654b8bdcda6810edab72678f07"
     },
     {
@@ -185,7 +185,7 @@
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-27T01:12:41.549Z",
+      "scoredAt": "2026-10-28T01:00:39.251Z",
       "contentHash": "11252ebe19a846f5e13b8fb23858fb7b5b1a06e15173bee7d5f70c87c35c2a56"
     },
     {
@@ -281,7 +281,7 @@
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-27T01:12:24.300Z",
+      "scoredAt": "2026-10-28T01:00:21.662Z",
       "contentHash": "974bed3f1252bdd783895ca4a78e712948ccde24c4f5685f192793367d605b0b"
     },
     {
@@ -377,7 +377,7 @@
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-27T01:12:24.300Z",
+      "scoredAt": "2026-10-28T01:00:21.662Z",
       "contentHash": "a22beec5fe321332405dd7d0113be1023196b6959e07dd98f1e36bf3999e2330"
     },
     {
@@ -473,7 +473,7 @@
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-27T01:12:24.300Z",
+      "scoredAt": "2026-10-28T01:00:21.662Z",
       "contentHash": "3510f15f49d98d084045bdc843c63347fa90a5460fa79b892278ecf1c0e15ad8"
     },
     {
@@ -569,7 +569,7 @@
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-27T01:12:24.300Z",
+      "scoredAt": "2026-10-28T01:00:21.662Z",
       "contentHash": "317be76716be66ada5222be7f1a7eb4cbf3c6cf05a32815ffa24e3adf44508f1"
     },
     {
@@ -665,7 +665,7 @@
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-27T01:12:24.300Z",
+      "scoredAt": "2026-10-28T01:00:21.662Z",
       "contentHash": "284b225315269ad9c0f9707c208c8aac4f6fb286684828f90b5280b49b62c3a8"
     },
     {
@@ -759,7 +759,7 @@
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-27T01:12:45.524Z",
+      "scoredAt": "2026-10-28T01:00:43.090Z",
       "contentHash": "c5518a666cc75c05f12a703d45f1af550ac608e6c290f3ddace369941249fbdd"
     },
     {
@@ -855,7 +855,7 @@
       "urgent": false,
       "urgentImportant": false,
       "scoringVersion": "1.0.0",
-      "scoredAt": "2026-10-27T01:12:44.245Z",
+      "scoredAt": "2026-10-28T01:00:41.890Z",
       "contentHash": "fd0b415962e7d57f2e76dacae6a6e14fa8dc11eda991c4c0c5394b8f3341c4b5"
     }
   ],
@@ -871,7 +871,7 @@
       "enabled": true,
       "notes": "Linked PDFs require manual legal review; title-only records cannot establish motorcycle coverage.",
       "status": "Unavailable",
-      "checkedAt": "2026-10-27T01:12:18.046Z",
+      "checkedAt": "2026-10-28T01:00:16.639Z",
       "lastSuccessAt": null,
       "error": "HTTP 403: source access restricted; no bypass attempted.",
       "candidates": 0,
@@ -889,7 +889,7 @@
       "enabled": true,
       "notes": "Availability and feed access are checked each run.",
       "status": "Unavailable",
-      "checkedAt": "2026-10-27T01:12:19.234Z",
+      "checkedAt": "2026-10-28T01:00:17.586Z",
       "lastSuccessAt": "2026-10-16T03:13:54.573Z",
       "error": "HTTP 403: source access restricted; no bypass attempted.",
       "candidates": 0,
@@ -907,7 +907,7 @@
       "enabled": true,
       "notes": "Product standards, manufacturing and consumer protection.",
       "status": "Blocked by robots",
-      "checkedAt": "2026-10-27T01:12:19.695Z",
+      "checkedAt": "2026-10-28T01:00:18.089Z",
       "lastSuccessAt": null,
       "error": "robots.txt disallows this source path.",
       "candidates": 0,
@@ -925,7 +925,7 @@
       "enabled": true,
       "notes": "Investments and industry incentives.",
       "status": "Unavailable",
-      "checkedAt": "2026-10-27T01:12:20.880Z",
+      "checkedAt": "2026-10-28T01:00:19.015Z",
       "lastSuccessAt": "2026-10-16T03:14:05.163Z",
       "error": "HTTP 403: source access restricted; no bypass attempted.",
       "candidates": 0,
@@ -943,7 +943,7 @@
       "enabled": true,
       "notes": "Importation, customs valuation and components.",
       "status": "Unavailable",
-      "checkedAt": "2026-10-27T01:12:22.346Z",
+      "checkedAt": "2026-10-28T01:00:20.209Z",
       "lastSuccessAt": null,
       "error": "HTTP 403: source access restricted; no bypass attempted.",
       "candidates": 0,
@@ -961,7 +961,7 @@
       "enabled": true,
       "notes": "News is not a substitute for a full decision; legal status requires review.",
       "status": "Unavailable",
-      "checkedAt": "2026-10-27T01:12:23.824Z",
+      "checkedAt": "2026-10-28T01:00:21.392Z",
       "lastSuccessAt": null,
       "error": "fetch failed",
       "candidates": 0,
@@ -979,8 +979,8 @@
       "enabled": true,
       "notes": "Industry sales, safety advocacy and counterfeit components. HTML adapter; the feed did not expose usable entries.",
       "status": "Healthy",
-      "checkedAt": "2026-10-27T01:12:24.300Z",
-      "lastSuccessAt": "2026-10-27T01:12:24.300Z",
+      "checkedAt": "2026-10-28T01:00:21.662Z",
+      "lastSuccessAt": "2026-10-28T01:00:21.662Z",
       "error": null,
       "candidates": 5,
       "ingested": 5,
@@ -997,8 +997,8 @@
       "enabled": true,
       "notes": "Legal text mirror maintained by Arellano Law Foundation; verify against issuing agency for escalation.",
       "status": "Healthy",
-      "checkedAt": "2026-10-27T01:12:40.004Z",
-      "lastSuccessAt": "2026-10-27T01:12:40.004Z",
+      "checkedAt": "2026-10-28T01:00:37.823Z",
+      "lastSuccessAt": "2026-10-28T01:00:37.823Z",
       "error": null,
       "candidates": 0,
       "ingested": 0,
@@ -1015,8 +1015,8 @@
       "enabled": true,
       "notes": "Current-year discovery index; legal mirror rather than original publisher.",
       "status": "Healthy",
-      "checkedAt": "2026-10-27T01:12:41.549Z",
-      "lastSuccessAt": "2026-10-27T01:12:41.549Z",
+      "checkedAt": "2026-10-28T01:00:39.251Z",
+      "lastSuccessAt": "2026-10-28T01:00:39.251Z",
       "error": null,
       "candidates": 2,
       "ingested": 2,
@@ -1033,8 +1033,8 @@
       "enabled": true,
       "notes": "Historical baseline: RA 11697, April 15, 2022. Never counted as newly published today.",
       "status": "Healthy",
-      "checkedAt": "2026-10-27T01:12:44.245Z",
-      "lastSuccessAt": "2026-10-27T01:12:44.245Z",
+      "checkedAt": "2026-10-28T01:00:41.890Z",
+      "lastSuccessAt": "2026-10-28T01:00:41.890Z",
       "error": null,
       "candidates": 1,
       "ingested": 1,
@@ -1051,8 +1051,8 @@
       "enabled": true,
       "notes": "Historical baseline: June 20, 2024. Annex A tariff lines are not verified by body text alone.",
       "status": "Healthy",
-      "checkedAt": "2026-10-27T01:12:45.524Z",
-      "lastSuccessAt": "2026-10-27T01:12:45.524Z",
+      "checkedAt": "2026-10-28T01:00:43.090Z",
+      "lastSuccessAt": "2026-10-28T01:00:43.090Z",
       "error": null,
       "candidates": 1,
       "ingested": 1,
@@ -1195,7 +1195,7 @@
       "enabled": true,
       "notes": "Government newswire; obtain original issuance before legal escalation.",
       "status": "Unavailable",
-      "checkedAt": "2026-10-27T01:12:46.566Z",
+      "checkedAt": "2026-10-28T01:00:44.080Z",
       "lastSuccessAt": null,
       "error": "HTTP 404",
       "candidates": 0,
@@ -1258,6 +1258,16 @@
     }
   ],
   "runs": [
+    {
+      "id": "3d6efc51-9160-4a16-8a70-8f5561cf764b",
+      "startedAt": "2026-10-28T01:00:16.634Z",
+      "finishedAt": "2026-10-28T01:00:45.976Z",
+      "status": "Completed with source errors",
+      "sourcesChecked": 12,
+      "recordsFound": 0,
+      "errors": 7,
+      "trigger": "CLI / GitHub Actions"
+    },
     {
       "id": "db3b5094-2099-4185-99ee-29cf31e6c04d",
       "startedAt": "2026-10-27T01:12:18.040Z",
