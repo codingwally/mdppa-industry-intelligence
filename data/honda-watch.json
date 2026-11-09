@@ -177,6 +177,42 @@
   ],
   "checks": [
     {
+      "id": "1e831e88-5ea7-4981-b851-d703bf8ad65a",
+      "leadId": "HND-003",
+      "channel": "Website",
+      "checkedAt": "2026-11-09T01:28:11.539Z",
+      "status": "Observed",
+      "detail": "The registered motorcycle product was matched in public page content. Captured price and photo need analyst review; inventory and authenticity are not established.",
+      "httpStatus": 200,
+      "contentHash": "7d89698d48e1e03ce58153b8ad9f0b02940b3fda62abaa15ff216dabb95bc34e",
+      "changed": false,
+      "observationVerified": true
+    },
+    {
+      "id": "7dd7a20c-2b5a-47f0-84c0-95a836b4bf75",
+      "leadId": "HND-002",
+      "channel": "Facebook",
+      "checkedAt": "2026-11-09T01:28:11.314Z",
+      "status": "Blocked by robots",
+      "detail": "robots.txt disallows automated retrieval. Last research observation retained; no bypass attempted.",
+      "httpStatus": null,
+      "contentHash": null,
+      "changed": false,
+      "observationVerified": false
+    },
+    {
+      "id": "9946c544-ec03-4db6-9d7e-d2fdea754304",
+      "leadId": "HND-001",
+      "channel": "Ecommerce",
+      "checkedAt": "2026-11-09T01:28:10.221Z",
+      "status": "Identity not verified",
+      "detail": "The named motorcycle product could not be matched to the returned page. Previous evidence retained.",
+      "httpStatus": 200,
+      "contentHash": null,
+      "changed": false,
+      "observationVerified": false
+    },
+    {
       "id": "9d43b8fd-4ecc-4dd6-b05f-0720df99da2d",
       "leadId": "HND-003",
       "channel": "Website",
@@ -1078,6 +1114,14 @@
     }
   ],
   "runs": [
+    {
+      "id": "a7e8ea67-1fa3-4ba1-aa3c-817e5fd54800",
+      "startedAt": "2026-11-09T01:28:10.221Z",
+      "finishedAt": "2026-11-09T01:28:12.171Z",
+      "observed": 1,
+      "restricted": 2,
+      "trigger": "Daily GitHub workflow"
+    },
     {
       "id": "89048a9f-e5d6-46a1-9ae4-2640049170c0",
       "startedAt": "2026-11-08T01:08:36.361Z",
